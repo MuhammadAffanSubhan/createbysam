@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ABC\\.nuget\\packages\\": {}
+    "C:\\Users\\PMLS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\csharp\\createbysam\\createbysam.csproj",
+      "projectUniqueName": "C:\\Users\\PMLS\\Desktop\\createbysam\\createbysam.csproj",
       "projectName": "createbysam",
-      "projectPath": "D:\\projects\\csharp\\createbysam\\createbysam.csproj",
-      "packagesPath": "C:\\Users\\ABC\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\csharp\\createbysam\\obj\\",
+      "projectPath": "C:\\Users\\PMLS\\Desktop\\createbysam\\createbysam.csproj",
+      "packagesPath": "C:\\Users\\PMLS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PMLS\\Desktop\\createbysam\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ABC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\PMLS\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -54,12 +59,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.19, 7.0.19]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.19, 7.0.19]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.19, 7.0.19]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.19, 7.0.19]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
